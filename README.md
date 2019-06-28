@@ -1,23 +1,13 @@
 # Social Icons Plugin for NodeBB
 
-Displays social sharing icons beneath every post in a topic for FB, Twitter, G+, Linkedin, Weibo, Weichat.
-
-### TODO
-
- - [ ] Douban
- - [ ] Qzone
- - [ ] Renren
- - [ ] Others
+Displays social sharing icons beneath every post in a topic for FB, Line, Twitter, Linkedin, Weibo, Weichat.
 
 
 ### Thanks
 
 - https://github.com/psychobunny/nodebb-plugin-share-post-icons
 
-- https://github.com/revir/need-more-share2
+- https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn
 
-### Install
 
-`npm i nodebb-plugin-share-post-icons-cn`
-
-![TIM截图20180306102749.jpg](https://i.loli.net/2018/03/06/5a9dfcc2cce65.jpg)
+![截图](https://upload.cc/i1/2019/06/28/ZY5g3P.jpg)
