@@ -68,9 +68,9 @@ $(document).ready(function () {
 		var posts = pid ? '[component="post"][data-pid="' + pid + '"]' : '[component="post"]';
 		$(posts).each(function () {
 			var post = $(this);
-        		if(!post.find(".nodebb-plugin-share-post-icons-cn").length){
-				app.parseAndTranslate('partials/nodebb-plugin-share-post-icons-cn/share', {}, function (tpl) {
-					if (!post.find(".nodebb-plugin-share-post-icons-cn").length) {
+        		if(!post.find(".nodebb-plugin-share-post-icons-dropdown").length){
+				app.parseAndTranslate('partials/nodebb-plugin-share-post-icons-dropdown/share', {}, function (tpl) {
+					if (!post.find(".nodebb-plugin-share-post-icons-dropdown").length) {
 					  $(tpl).insertBefore(post.find('.post-tools'));
 					}
 				});
