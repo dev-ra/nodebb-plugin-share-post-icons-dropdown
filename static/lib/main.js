@@ -53,6 +53,13 @@ $(document).ready(function () {
 				var shareURL = 'https://www.douban.com/share/service?name='+ title +'&href=' + urlToPost;
 				window.open(shareURL, '_blank', 'width=550,height=550,scrollbars=no,status=no');
 				return false;
+			})
+			.off('click', '[component="share/line"]').on('click', '[component="share/line"]', function (ev) {
+				var pid = $(this).parents('[data-pid]').attr('data-pid');
+				var urlToPost = encodeURIComponent(url + '/post' + (pid ? '/' + (pid) : ''));
+				var shareURL = 'https://social-plugins.line.me/lineit/share?url=' + urlToPost;
+				window.open(shareURL, '_blank', 'width=550,height=550,scrollbars=no,status=no');
+				return false;
 			});
 		}
 	});
