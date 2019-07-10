@@ -1,21 +1,21 @@
 {
-  "name": "nodebb-plugin-share-post-icons-cn",
+  "name": "nodebb-plugin-share-post-icons-dropdown",
   "version": "1.1.0",
   "description": "Displays social sharing icons beneath every post in a topic",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn"
+    "url": "https://github.com/dev-ra/nodebb-plugin-share-post-icons-dropdown"
   },
-  "keywords": ["nodebb", "plugin", "social", "icons", "share", "facebook", "gplus", "twitter", "weibo", "wechat"
+  "keywords": ["nodebb", "plugin", "social", "icons", "share", "facebook", "gplus", "twitter", "weibo", "wechat", "line"
   ],
   "author": {
-    "name": "BirdZhang",
-    "email": "0312birdzhang@gmail.com"
+    "name": "ra",
+    "email": ""
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn/issues"
+    "url": "https://github.com/dev-ra/nodebb-plugin-share-post-icons-dropdown/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
